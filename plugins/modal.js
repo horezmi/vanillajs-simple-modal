@@ -24,7 +24,7 @@ const _createModal = options => {
     modal.classList.add('vmodal')
     modal.insertAdjacentHTML('afterbegin', `
     <div class="modal-overlay" data-close="true">
-        <div class="modal-window" style="width: ${options.width || DEFAULT_WIDTH}">
+        <div class="modal-window" style="max-width: ${options.width || DEFAULT_WIDTH}">
             <div class="modal-header">
                 <span class="modal-title">${options.title || DEFAULT_TITLE}</span>
                 ${options.closable ? '<span class="modal-close" data-close="true">&times;</span>' : ''}

@@ -49,6 +49,8 @@
     bottom: 0;
     background: rgba(0, 0, 0, 0);
     transition: background .2s ease-in;
+    margin: 0 auto;
+    padding: 10px
 }
 
 .modal-window {
@@ -77,6 +79,8 @@
 }
 
 .col {
+    padding: 10px;
+    margin: 10px;
     animation: backInDown;
     animation-duration: 1s;
 }
